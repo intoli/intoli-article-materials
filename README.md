@@ -9,6 +9,7 @@ Additionally, you can watch or start this repository to be made aware of new upd
 
 - [Analyzing One Million robots.txt Files](analyzing-one-million-robots-txt-files) - Explores downloading and analyzing the `robots.txt` files for the Alex top one million websites.
 - [Email Spy](email-spy) - An open source Chrome/Firefox Web Extension that lets you find contact emails for any domain with a single click.
+- [Making Chrome Headless Undetectable](making-chrome-headless-undetectable) - A guide to bypassing some common Chrome Headless tests by injecting JavaScript into pages before the test code has a chance to run.
 - [Running Selenium with Headless Chrome](running-selenium-with-headless-chrome) - Demonstrates how to run Google Chrome in headless mode using Selenium in Python.
 - [Scraping User-Submitted Reviews from the Steam Store](steam-scraper) - Walks through the process of building an advanced Scrapy spider for the purpose of scraping user reviews from the Steam Store.
 - [Why I Still Don't Use Yarn](node-package-manager-benchmarks) - Benchmarks `npm`, `pnpm`, and `yarn` for installation time and storage space given a few common project configurations.

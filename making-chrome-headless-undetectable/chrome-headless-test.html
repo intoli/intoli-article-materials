@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Chrome Headless Detection</title>
+    <style>
+      td:last-child {
+        background-color: #c8d86d;
+        max-width:300px;
+        word-wrap:break-word;
+      }
+      td.failed {
+        background-color: #f45159;
+      }
+      table, th, td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Test Name</th>
+        <th>Result</th>
+      </tr>
+      <tr>
+        <td>User Agent</td>
+        <td id="user-agent"></td>
+      </tr>
+      <tr>
+        <td>Plugins Length</td>
+        <td id="plugins-length"></td>
+      </tr>
+      <tr>
+        <td>Languages</td>
+        <td id="languages"></td>
+      </tr>
+      <tr>
+        <td>WebGL Vendor</td>
+        <td id="webgl-vendor"></td>
+      </tr>
+      <tr>
+        <td>WebGL Renderer</td>
+        <td id="webgl-renderer"></td>
+      </tr>
+      <tr>
+        <td>Hairline Feature</td>
+        <td id="hairline-feature"></td>
+      </tr>
+      <tr>
+        <td>Broken Image Dimensions</td>
+        <td id="broken-image-dimensions"></td>
+      </tr>
+    </table>
+    <script src="modernizr.js"></script>
+    <script src="chrome-headless-test.js"></script>
+  </body>
+</html>
