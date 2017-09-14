@@ -13,6 +13,7 @@ Additionally, you can watch or start this repository to be made aware of new upd
 - [How to Clear the Chrome Browser Cache With Selenium WebDriver/ChromeDriver](clear-the-chrome-browser-cache) -  Demonstrates how to clear the Chrome browser cache with Selenium.
 - [Making Chrome Headless Undetectable](making-chrome-headless-undetectable) - Bypasses some common Chrome Headless tests by injecting JavaScript into pages before the test code has a chance to run.
 - [Running Selenium with Headless Chrome](running-selenium-with-headless-chrome) - Demonstrates how to run Google Chrome in headless mode using Selenium in Python.
+- [Running Selenium with Headless Chrome in Ruby](running-selenium-with-headless-chrome-in-ruby) - A Ruby flavored version of our headless Chrome setup guide.
 - [Scraping User-Submitted Reviews from the Steam Store](steam-scraper) - Walks through the process of building an advanced Scrapy spider for the purpose of scraping user reviews from the Steam Store.
 - [Why I Still Don't Use Yarn](node-package-manager-benchmarks) - Benchmarks `npm`, `pnpm`, and `yarn` for installation time and storage space given a few common project configurations.
 
