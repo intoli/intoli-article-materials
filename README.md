@@ -24,7 +24,9 @@ These are articles where we don't have any supplementary materials available, bu
 
 - [Finding Pareto Optimal Blogs on Hacker News](https://intoli.com/blog/pareto-optimal-blogs/) - An analysis of submissions on Hacker News for the purpose of identifying high quality technology blogs.
 - [How Are Principal Component Analysis and Singular Value Decomposition Related?](https://intoli.com/blog/pca-and-svd/) - Explores the relationship between singular value decomposition and principal component analysis.
+- [How to Run a Keras Model in the Browser with Keras.js](https://intoli.com/blog/keras-weight-transfer/) - Covers installing the right packages, exporting the weights from Python, and performing a prediction in the browser.
 - [Markov's and Chebyshev's Inequalities Explained](https://intoli.com/blog/chebyshevs-inequality/) - A look at why Chebyshev's Inequality holds true and some potential applications.
 - [Patching a Linux Kernel Module](https://intoli.com/blog/patching-a-linux-kernel-module/) - A case-study in debugging and patching kernel-level issues on Linux.
 - [Predicting Hacker News article success with neural networks and TensorFlow](https://intoli.com/blog/hacker-news-title-tool/) - An interactive tool that uses TensorFlow to predict how well submissions will do on Hacker News based on their titles.
+- [Terminal Recorders: A Comprehensive Guide](https://intoli.com/blog/terminal-recorders/) - An in-depth comparision of different methods to record animations of terminal sessions.
 - [Understanding Neural Network Weight Initialization](https://intoli.com/blog/neural-network-initialization/) - Explores the effects of neural network weight initialization strategies.
