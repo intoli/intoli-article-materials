@@ -25,13 +25,21 @@ Additionally, you can watch or start this repository to be made aware of new upd
 
 These are articles where we don't have any supplementary materials available, but that we still highly recommend.
 
+- [A Brief Tour of Grouping and Aggregating in Pandas](https://intoli.com/blog/pandas-aggregation/) - Learn how to use pandas to easily slice up a dataset and quickly extract useful statistics.
+- [Building Data Science Pipelines with Luigi and Jupyter Notebooks](https://intoli.com/blog/luigi-jupyter-notebooks/) - Learn about the Luigi task runner and how to use Jupyter notebooks in your Luigi workflows.
 - [Dangerous Pickles — Malicious Python Serialization](https://intoli.com/blog/dangerous-pickles/) - A light introduction to the Python pickle protocol, the Pickle Machine, and constructing malicious pickles.
 - [Designing The Wayback Machine Loading Animation](https://intoli.com/blog/designing-the-wayback-machine-loading-animation/) - A walkthrough of how we helped The Internet Archive design a new loading animation for the Wayback Machine.
+- [Fantasy Football for Hackers II](https://intoli.com/blog/average-draft-position-vs-season-projections/) — An interactive visualization of Average Draft Position vs Season Projections.
 - [Finding Pareto Optimal Blogs on Hacker News](https://intoli.com/blog/pareto-optimal-blogs/) - An analysis of submissions on Hacker News for the purpose of identifying high quality technology blogs.
 - [How Are Principal Component Analysis and Singular Value Decomposition Related?](https://intoli.com/blog/pca-and-svd/) - Explores the relationship between singular value decomposition and principal component analysis.
 - [How to Run a Keras Model in the Browser with Keras.js](https://intoli.com/blog/keras-weight-transfer/) - Covers installing the right packages, exporting the weights from Python, and performing a prediction in the browser.
+- [How to Test If Your Website Logs Errors to the Console](https://intoli.com/blog/nightmare-console-errors/) - Use Nightmare JS to write useful Mocha-based console output tests.
+- [Implementing a Custom Waiting Action in Nightmare JS](https://intoli.com/blog/nightmare-network-idle/) - Learn how to have your Nightmare JS tests wait until the network is silent.
 - [Markov's and Chebyshev's Inequalities Explained](https://intoli.com/blog/chebyshevs-inequality/) - A look at why Chebyshev's Inequality holds true and some potential applications.
 - [Patching a Linux Kernel Module](https://intoli.com/blog/patching-a-linux-kernel-module/) - A case-study in debugging and patching kernel-level issues on Linux.
 - [Predicting Hacker News article success with neural networks and TensorFlow](https://intoli.com/blog/hacker-news-title-tool/) - An interactive tool that uses TensorFlow to predict how well submissions will do on Hacker News based on their titles.
+- [Running Selenium with Headless Firefox](https://intoli.com/blog/running-selenium-with-headless-firefox/) - A look at connecting Selenium WebDriver to Firefox's headless mode.
+- [Saving Images from a Headless Browser](https://intoli.com/blog/saving-images/) - Learn how to save any image from a headless browser in this Puppeteer tutorial.
 - [Terminal Recorders: A Comprehensive Guide](https://intoli.com/blog/terminal-recorders/) - An in-depth comparision of different methods to record animations of terminal sessions.
 - [Understanding Neural Network Weight Initialization](https://intoli.com/blog/neural-network-initialization/) - Explores the effects of neural network weight initialization strategies.
+- [Using Puppeteer to Scrape Websites with Infinite Scrolling](https://intoli.com/blog/scrape-infinite-scroll/) - Learn how to scrape an infinitely scrolling data feed with a headless browser.
