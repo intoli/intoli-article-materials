@@ -17,6 +17,7 @@ Additionally, you can watch or start this repository to be made aware of new upd
 - [Running Selenium with Headless Chrome in Ruby](running-selenium-with-headless-chrome-in-ruby) - A Ruby flavored version of our headless Chrome setup guide.
 - [Scraping User-Submitted Reviews from the Steam Store](steam-scraper) - Walks through the process of building an advanced Scrapy spider for the purpose of scraping user reviews from the Steam Store.
 - [Using Firefox WebExtensions with Selenium](firefox-extensions-with-selenium) - A guide to launching Firefox with extensions preloaded using Selenium.
+- [Using Google Chrome Extensions with Selenium](chrome-extensions-with-selenium) - A simple guide to launching Google Chrome with extensions preloaded using Selenium.
 - [Why I Still Don't Use Yarn](node-package-manager-benchmarks) - Benchmarks `npm`, `pnpm`, and `yarn` for installation time and storage space given a few common project configurations.
 
 
