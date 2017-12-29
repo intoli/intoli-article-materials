@@ -25,6 +25,7 @@ Additionally, you can watch or start this repository to be made aware of new upd
 
 These are articles where we don't have any supplementary materials available, but that we still highly recommend.
 
+- [Dangerous Pickles — Malicious Python Serialization](https://intoli.com/blog/dangerous-pickles/) - A light introduction to the Python pickle protocol, the Pickle Machine, and constructing malicious pickles.
 - [Finding Pareto Optimal Blogs on Hacker News](https://intoli.com/blog/pareto-optimal-blogs/) - An analysis of submissions on Hacker News for the purpose of identifying high quality technology blogs.
 - [How Are Principal Component Analysis and Singular Value Decomposition Related?](https://intoli.com/blog/pca-and-svd/) - Explores the relationship between singular value decomposition and principal component analysis.
 - [How to Run a Keras Model in the Browser with Keras.js](https://intoli.com/blog/keras-weight-transfer/) - Covers installing the right packages, exporting the weights from Python, and performing a prediction in the browser.
