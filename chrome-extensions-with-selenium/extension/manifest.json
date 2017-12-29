@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Chrome Extensions With Selenium",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
