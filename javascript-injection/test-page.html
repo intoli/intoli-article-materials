@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      ((time) => {
+        document.addEventListener('DOMContentLoaded', () => {
+          document.getElementById('inlined-time').innerHTML = time;
+        });
+      })(Date.now());
+    </script>
+    <script src="https://httpbin.org/delay/5"></script>
+    <link rel="stylesheet" href="https://httpbin.org/delay/5">
+  </head>
+  <body>
+    <h1>Inlined Script Time: <span id="inlined-time"></span></h1>
+    <h1>Injected Script Time: <span id="injected-time"></span></h1>
+    <img src="https://httpbin.org/delay/5"></img>
+  </body>
+</html>

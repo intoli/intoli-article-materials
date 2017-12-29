@@ -11,6 +11,7 @@ Additionally, you can watch or start this repository to be made aware of new upd
 - [Email Spy](email-spy) - An open source Chrome/Firefox Web Extension that lets you find contact emails for any domain with a single click.
 - [Fantasy Football for Hackers](fantasy-football-for-hackers) - Scrapes Fantasy Football projections and uses them to simulate league dynamics and calculate baseline subtracted values for players to use as a draft strategy.
 - [How to Clear the Chrome Browser Cache With Selenium WebDriver/ChromeDriver](clear-the-chrome-browser-cache) -  Demonstrates how to clear the Chrome browser cache with Selenium.
+- [JavaScript Injection with Selenium, Puppeteer, and Marionette in Chrome and Firefox](javascript-injection) - An exploration of different browser automation methods to inject JavaScript into webpages.
 - [Making Chrome Headless Undetectable](making-chrome-headless-undetectable) - Bypasses some common Chrome Headless tests by injecting JavaScript into pages before the test code has a chance to run.
 - [Running Selenium with Headless Chrome](running-selenium-with-headless-chrome) - Demonstrates how to run Google Chrome in headless mode using Selenium in Python.
 - [Running Selenium with Headless Chrome in Ruby](running-selenium-with-headless-chrome-in-ruby) - A Ruby flavored version of our headless Chrome setup guide.
