@@ -9,24 +9,24 @@ Additionally, you can watch or start this repository to be made aware of new upd
 
 This is our most recent article, we hope that you'll enjoy it!
 
-- [It is *not* possible to detect and block Chrome headless](not-possible-to-block-chrome-headless) - An updated exploration of techniques to avoid detection.
+- [It is *not* possible to detect and block Chrome headless](articles/not-possible-to-block-chrome-headless) - An updated exploration of techniques to avoid detection.
 
 
 ## Articles
 
-- [Analyzing One Million robots.txt Files](analyzing-one-million-robots-txt-files) - Explores downloading and analyzing the `robots.txt` files for the Alex top one million websites.
-- [Email Spy](email-spy) - An open source Chrome/Firefox Web Extension that lets you find contact emails for any domain with a single click.
-- [Fantasy Football for Hackers](fantasy-football-for-hackers) - Scrapes Fantasy Football projections and uses them to simulate league dynamics and calculate baseline subtracted values for players to use as a draft strategy.
-- [How to Clear the Chrome Browser Cache With Selenium WebDriver/ChromeDriver](clear-the-chrome-browser-cache) -  Demonstrates how to clear the Chrome browser cache with Selenium.
-- [It is *not* possible to detect and block Chrome headless](not-possible-to-block-chrome-headless) - An updated exploration of techniques to avoid detection.
-- [JavaScript Injection with Selenium, Puppeteer, and Marionette in Chrome and Firefox](javascript-injection) - An exploration of different browser automation methods to inject JavaScript into webpages.
-- [Making Chrome Headless Undetectable](making-chrome-headless-undetectable) - Bypasses some common Chrome Headless tests by injecting JavaScript into pages before the test code has a chance to run.
-- [Running Selenium with Headless Chrome](running-selenium-with-headless-chrome) - Demonstrates how to run Google Chrome in headless mode using Selenium in Python.
-- [Running Selenium with Headless Chrome in Ruby](running-selenium-with-headless-chrome-in-ruby) - A Ruby flavored version of our headless Chrome setup guide.
-- [Scraping User-Submitted Reviews from the Steam Store](steam-scraper) - Walks through the process of building an advanced Scrapy spider for the purpose of scraping user reviews from the Steam Store.
-- [Using Firefox WebExtensions with Selenium](firefox-extensions-with-selenium) - A guide to launching Firefox with extensions preloaded using Selenium.
-- [Using Google Chrome Extensions with Selenium](chrome-extensions-with-selenium) - A simple guide to launching Google Chrome with extensions preloaded using Selenium.
-- [Why I Still Don't Use Yarn](node-package-manager-benchmarks) - Benchmarks `npm`, `pnpm`, and `yarn` for installation time and storage space given a few common project configurations.
+- [Analyzing One Million robots.txt Files](articles/analyzing-one-million-robots-txt-files) - Explores downloading and analyzing the `robots.txt` files for the Alex top one million websites.
+- [Email Spy](articles/email-spy) - An open source Chrome/Firefox Web Extension that lets you find contact emails for any domain with a single click.
+- [Fantasy Football for Hackers](articles/fantasy-football-for-hackers) - Scrapes Fantasy Football projections and uses them to simulate league dynamics and calculate baseline subtracted values for players to use as a draft strategy.
+- [How to Clear the Chrome Browser Cache With Selenium WebDriver/ChromeDriver](articles/clear-the-chrome-browser-cache) -  Demonstrates how to clear the Chrome browser cache with Selenium.
+- [It is *not* possible to detect and block Chrome headless](articles/not-possible-to-block-chrome-headless) - An updated exploration of techniques to avoid detection.
+- [JavaScript Injection with Selenium, Puppeteer, and Marionette in Chrome and Firefox](articles/javascript-injection) - An exploration of different browser automation methods to inject JavaScript into webpages.
+- [Making Chrome Headless Undetectable](articles/making-chrome-headless-undetectable) - Bypasses some common Chrome Headless tests by injecting JavaScript into pages before the test code has a chance to run.
+- [Running Selenium with Headless Chrome](articles/running-selenium-with-headless-chrome) - Demonstrates how to run Google Chrome in headless mode using Selenium in Python.
+- [Running Selenium with Headless Chrome in Ruby](articles/running-selenium-with-headless-chrome-in-ruby) - A Ruby flavored version of our headless Chrome setup guide.
+- [Scraping User-Submitted Reviews from the Steam Store](articles/steam-scraper) - Walks through the process of building an advanced Scrapy spider for the purpose of scraping user reviews from the Steam Store.
+- [Using Firefox WebExtensions with Selenium](articles/firefox-extensions-with-selenium) - A guide to launching Firefox with extensions preloaded using Selenium.
+- [Using Google Chrome Extensions with Selenium](articles/chrome-extensions-with-selenium) - A simple guide to launching Google Chrome with extensions preloaded using Selenium.
+- [Why I Still Don't Use Yarn](articles/node-package-manager-benchmarks) - Benchmarks `npm`, `pnpm`, and `yarn` for installation time and storage space given a few common project configurations.
 
 
 ## Honorable Mentions
