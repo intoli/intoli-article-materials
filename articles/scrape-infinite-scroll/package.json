@@ -5,7 +5,7 @@
   "main": "scrape-infinite-scroll.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Intoli/intoli-article-materials.git"
+    "url": "https://github.com/Intoli/intoli-article-materials.git"
   },
   "keywords": [
     "scraping",
