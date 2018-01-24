@@ -1,0 +1,27 @@
+{
+  "name": "nightmare-network-idle",
+  "version": "1.0.0",
+  "description": "A script which uses Puppeteer to scrape pages with infinite scroll.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Intoli/intoli-article-materials.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "testing",
+    "javascript",
+    "nightmare"
+  ],
+  "author": "Andre Perunicic / Intoli, LLC",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Intoli/intoli-article-materials/issues"
+  },
+  "homepage": "https://intoli.com/blog/nightmare-network-idle/",
+  "dependencies": {
+    "mocha": "^5.0.0",
+    "nightmare": "^2.10.0"
+  }
+}
