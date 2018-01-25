@@ -24,6 +24,7 @@ This is our most recent article, we hope that you'll enjoy it!
 - [Running Selenium with Headless Chrome](articles/running-selenium-with-headless-chrome) - Demonstrates how to run Google Chrome in headless mode using Selenium in Python.
 - [Running Selenium with Headless Chrome in Ruby](articles/running-selenium-with-headless-chrome-in-ruby) - A Ruby flavored version of our headless Chrome setup guide.
 - [Scraping User-Submitted Reviews from the Steam Store](articles/steam-scraper) - Walks through the process of building an advanced Scrapy spider for the purpose of scraping user reviews from the Steam Store.
+- [Understanding Neural Network Weight Initialization](https://intoli.com/blog/neural-network-initialization/) - Explores the effects of neural network weight initialization strategies.
 - [Using Firefox WebExtensions with Selenium](articles/firefox-extensions-with-selenium) - A guide to launching Firefox with extensions preloaded using Selenium.
 - [Using Google Chrome Extensions with Selenium](articles/chrome-extensions-with-selenium) - A simple guide to launching Google Chrome with extensions preloaded using Selenium.
 - [Why I Still Don't Use Yarn](articles/node-package-manager-benchmarks) - Benchmarks `npm`, `pnpm`, and `yarn` for installation time and storage space given a few common project configurations.
@@ -49,5 +50,4 @@ These are articles where we don't have any supplementary materials available, bu
 - [Running Selenium with Headless Firefox](https://intoli.com/blog/running-selenium-with-headless-firefox/) - A look at connecting Selenium WebDriver to Firefox's headless mode.
 - [Saving Images from a Headless Browser](https://intoli.com/blog/saving-images/) - Learn how to save any image from a headless browser in this Puppeteer tutorial.
 - [Terminal Recorders: A Comprehensive Guide](https://intoli.com/blog/terminal-recorders/) - An in-depth comparision of different methods to record animations of terminal sessions.
-- [Understanding Neural Network Weight Initialization](https://intoli.com/blog/neural-network-initialization/) - Explores the effects of neural network weight initialization strategies.
 - [Using Puppeteer to Scrape Websites with Infinite Scrolling](https://intoli.com/blog/scrape-infinite-scroll/) - Learn how to scrape an infinitely scrolling data feed with a headless browser.
