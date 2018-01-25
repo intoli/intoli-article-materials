@@ -1,0 +1,26 @@
+{
+  "name": "scrape-infinite-scroll",
+  "version": "1.0.0",
+  "description": "A script which uses Puppeteer to scrape pages with infinite scroll.",
+  "main": "scrape-infinite-scroll.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Intoli/intoli-article-materials.git"
+  },
+  "keywords": [
+    "scraping",
+    "javascript",
+    "puppeteer",
+    "headless",
+    "chrome"
+  ],
+  "author": "Andre Perunicic / Intoli, LLC",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Intoli/intoli-article-materials/issues"
+  },
+  "homepage": "https://intoli.com/blog/scrape-infinite-scroll/",
+  "dependencies": {
+    "puppeteer": "^1.0.0"
+  }
+}
