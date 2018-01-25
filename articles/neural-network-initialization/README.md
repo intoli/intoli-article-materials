@@ -2,10 +2,10 @@
 
 This folder contains scripts for producing the plots used in the [Understanding Neural Network Weight Initialization](https://intoli.com/blog/neural-network-initialization/) article published on the [Intoli blog](https://intoli.com/blog/):
 
-- [plot-activation-layers.py](plot-activation-layers.py) visualizes the distribution of activations over 5 hidden layers of a Multi-Layer Perceptron using 3 different initializations:
+- [plot-activation-layers.py](plot-activation-layers.py) visualizes the distribution of activations over 5 hidden layers of a Multi-Layer Perceptron using three different initializations:
   ![ReLU MLP Activations under Three Initializations](https://intoli.com/blog/neural-network-initialization/img/relu-output-progression-violinplot.png)
 
-- [plot-loss-progression.py](plot-plot-progression.py) visualizes training loss over time
+- [plot-loss-progression.py](plot-plot-progression.py) visualizes training loss over time as the network is trained using three different initializations:
   ![Loss over Time under Three Initializations](https://intoli.com/blog/neural-network-initialization/img/training-losses.png)
 
 To run the scripts, first grab the files from this folder:
