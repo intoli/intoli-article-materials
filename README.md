@@ -18,6 +18,7 @@ This is our most recent article, we hope that you'll enjoy it!
 - [Email Spy](articles/email-spy) - An open source Chrome/Firefox Web Extension that lets you find contact emails for any domain with a single click.
 - [Fantasy Football for Hackers](articles/fantasy-football-for-hackers) - Scrapes Fantasy Football projections and uses them to simulate league dynamics and calculate baseline subtracted values for players to use as a draft strategy.
 - [How to Clear the Chrome Browser Cache With Selenium WebDriver/ChromeDriver](articles/clear-the-chrome-browser-cache) -  Demonstrates how to clear the Chrome browser cache with Selenium.
+- [Implementing a Custom Waiting Action in Nightmare JS](https://intoli.com/blog/nightmare-network-idle/) - Learn how to have your Nightmare JS tests wait until the network is silent.
 - [It is *not* possible to detect and block Chrome headless](articles/not-possible-to-block-chrome-headless) - An updated exploration of techniques to avoid detection.
 - [JavaScript Injection with Selenium, Puppeteer, and Marionette in Chrome and Firefox](articles/javascript-injection) - An exploration of different browser automation methods to inject JavaScript into webpages.
 - [Making Chrome Headless Undetectable](articles/making-chrome-headless-undetectable) - Bypasses some common Chrome Headless tests by injecting JavaScript into pages before the test code has a chance to run.
@@ -27,6 +28,7 @@ This is our most recent article, we hope that you'll enjoy it!
 - [Understanding Neural Network Weight Initialization](https://intoli.com/blog/neural-network-initialization/) - Explores the effects of neural network weight initialization strategies.
 - [Using Firefox WebExtensions with Selenium](articles/firefox-extensions-with-selenium) - A guide to launching Firefox with extensions preloaded using Selenium.
 - [Using Google Chrome Extensions with Selenium](articles/chrome-extensions-with-selenium) - A simple guide to launching Google Chrome with extensions preloaded using Selenium.
+- [Using Puppeteer to Scrape Websites with Infinite Scrolling](https://intoli.com/blog/scrape-infinite-scroll/) - Learn how to scrape an infinitely scrolling data feed with a headless browser.
 - [Why I Still Don't Use Yarn](articles/node-package-manager-benchmarks) - Benchmarks `npm`, `pnpm`, and `yarn` for installation time and storage space given a few common project configurations.
 
 
@@ -43,11 +45,9 @@ These are articles where we don't have any supplementary materials available, bu
 - [How Are Principal Component Analysis and Singular Value Decomposition Related?](https://intoli.com/blog/pca-and-svd/) - Explores the relationship between singular value decomposition and principal component analysis.
 - [How to Run a Keras Model in the Browser with Keras.js](https://intoli.com/blog/keras-weight-transfer/) - Covers installing the right packages, exporting the weights from Python, and performing a prediction in the browser.
 - [How to Test If Your Website Logs Errors to the Console](https://intoli.com/blog/nightmare-console-errors/) - Use Nightmare JS to write useful Mocha-based console output tests.
-- [Implementing a Custom Waiting Action in Nightmare JS](https://intoli.com/blog/nightmare-network-idle/) - Learn how to have your Nightmare JS tests wait until the network is silent.
 - [Markov's and Chebyshev's Inequalities Explained](https://intoli.com/blog/chebyshevs-inequality/) - A look at why Chebyshev's Inequality holds true and some potential applications.
 - [Patching a Linux Kernel Module](https://intoli.com/blog/patching-a-linux-kernel-module/) - A case-study in debugging and patching kernel-level issues on Linux.
 - [Predicting Hacker News article success with neural networks and TensorFlow](https://intoli.com/blog/hacker-news-title-tool/) - An interactive tool that uses TensorFlow to predict how well submissions will do on Hacker News based on their titles.
 - [Running Selenium with Headless Firefox](https://intoli.com/blog/running-selenium-with-headless-firefox/) - A look at connecting Selenium WebDriver to Firefox's headless mode.
 - [Saving Images from a Headless Browser](https://intoli.com/blog/saving-images/) - Learn how to save any image from a headless browser in this Puppeteer tutorial.
 - [Terminal Recorders: A Comprehensive Guide](https://intoli.com/blog/terminal-recorders/) - An in-depth comparision of different methods to record animations of terminal sessions.
-- [Using Puppeteer to Scrape Websites with Infinite Scrolling](https://intoli.com/blog/scrape-infinite-scroll/) - Learn how to scrape an infinitely scrolling data feed with a headless browser.
