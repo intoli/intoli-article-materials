@@ -36,6 +36,7 @@ while on Linux you might have luck with
 echo "backend: Agg" >> ~/.matplotlib/matplotlibrc
 ```
 
+Note that the scripts do not save files to disk and simply show the plot in a Matplotlib window.
 To make the plots just run the scripts using Python from the virtualenv:
 
 ```bash
