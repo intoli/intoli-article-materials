@@ -9,13 +9,14 @@ Additionally, you can watch or start this repository to be made aware of new upd
 
 This is our most recent article, we hope that you'll enjoy it!
 
-- [It is *not* possible to detect and block Chrome headless](articles/not-possible-to-block-chrome-headless) - An updated exploration of techniques to avoid detection.
+- [Extending CircleCI's API with a Custom Microservice on AWS Lambda](articles/circleci-artifacts) - Explains how to deploy a nodejs express app as a microservice on AWS Lambda.
 
 
 ## Articles
 
 - [Analyzing One Million robots.txt Files](articles/analyzing-one-million-robots-txt-files) - Explores downloading and analyzing the `robots.txt` files for the Alex top one million websites.
 - [Email Spy](articles/email-spy) - An open source Chrome/Firefox Web Extension that lets you find contact emails for any domain with a single click.
+- [Extending CircleCI's API with a Custom Microservice on AWS Lambda](articles/circleci-artifacts) - Explains how to deploy a nodejs express app as a microservice on AWS Lambda.
 - [Fantasy Football for Hackers](articles/fantasy-football-for-hackers) - Scrapes Fantasy Football projections and uses them to simulate league dynamics and calculate baseline subtracted values for players to use as a draft strategy.
 - [How to Clear the Chrome Browser Cache With Selenium WebDriver/ChromeDriver](articles/clear-the-chrome-browser-cache) -  Demonstrates how to clear the Chrome browser cache with Selenium.
 - [How to Clear the Firefox Browser Cache With Selenium WebDriver/geckodriver](articles/clear-the-firefox-browser-cache) -  Demonstrates how to clear the Firefox browser cache with Selenium.

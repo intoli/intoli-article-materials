@@ -1,0 +1,26 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "apigateway:*"
+      ],
+      "Resource": "arn:aws:apigateway:*::/*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "execute-api:Invoke"
+      ],
+      "Resource": "arn:aws:execute-api:*:*:*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+          "lambda:*"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
