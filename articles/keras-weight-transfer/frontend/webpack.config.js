@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const config = {
   devServer: {
     clientLogLevel: 'info',
-    contentBase: './frontend',
+    contentBase: path.join(__dirname, 'build'),
     historyApiFallback: true,
     overlay: {
       errors: true,
