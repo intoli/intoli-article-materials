@@ -34,15 +34,6 @@ const config = {
         exclude: /node_modules/,
         loader: 'babel-loader',
       },
-      {
-        test: /\.json$/,
-        exclude: /node_modules/,
-        loader: 'json-loader',
-      },
-      {
-        test: /\.(eot|svg|otf|ttf|woff|woff2)$/,
-        use: 'file-loader',
-      },
     ],
   },
   output: {
