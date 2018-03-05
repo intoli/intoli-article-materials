@@ -1,5 +1,6 @@
 const path = require('path');
 
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
@@ -49,6 +50,12 @@ const config = {
       inject: true,
       template: './src/index.html',
     }),
+    new CopyWebpackPlugin([
+      {
+        from: '../neural-net/model.bin',
+        to: path.join(__dirname, 'build'),
+      },
+    ]),
   ],
   watchOptions: {
     ignored: /build/,
