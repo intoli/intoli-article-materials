@@ -24,6 +24,6 @@
     "webpack-dev-server": "2.11.2"
   },
   "dependencies": {
-    "keras-js": "^1.0.3"
+    "keras-js": "1.0.3"
   }
 }
