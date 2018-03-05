@@ -46,7 +46,6 @@ These are articles where we don't have any supplementary materials available, bu
 - [Fantasy Football for Hackers II](https://intoli.com/blog/average-draft-position-vs-season-projections/) — An interactive visualization of Average Draft Position vs Season Projections.
 - [Finding Pareto Optimal Blogs on Hacker News](https://intoli.com/blog/pareto-optimal-blogs/) - An analysis of submissions on Hacker News for the purpose of identifying high quality technology blogs.
 - [How Are Principal Component Analysis and Singular Value Decomposition Related?](https://intoli.com/blog/pca-and-svd/) - Explores the relationship between singular value decomposition and principal component analysis.
-- [How to Run a Keras Model in the Browser with Keras.js](https://intoli.com/blog/keras-weight-transfer/) - Covers installing the right packages, exporting the weights from Python, and performing a prediction in the browser.
 - [How to Test If Your Website Logs Errors to the Console](https://intoli.com/blog/nightmare-console-errors/) - Use Nightmare JS to write useful Mocha-based console output tests.
 - [Markov's and Chebyshev's Inequalities Explained](https://intoli.com/blog/chebyshevs-inequality/) - A look at why Chebyshev's Inequality holds true and some potential applications.
 - [Patching a Linux Kernel Module](https://intoli.com/blog/patching-a-linux-kernel-module/) - A case-study in debugging and patching kernel-level issues on Linux.
