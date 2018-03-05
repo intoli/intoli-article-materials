@@ -21,6 +21,9 @@ const config = {
   },
   devtool: 'cheap-module-source-map',
   entry: path.join(__dirname, 'src', 'index.js'),
+  externals: {
+    fs: 'empty',
+  },
   module: {
     rules: [
       {
