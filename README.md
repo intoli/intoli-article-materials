@@ -20,6 +20,7 @@ This is our most recent article, we hope that you'll enjoy it!
 - [Fantasy Football for Hackers](articles/fantasy-football-for-hackers) - Scrapes Fantasy Football projections and uses them to simulate league dynamics and calculate baseline subtracted values for players to use as a draft strategy.
 - [How to Clear the Chrome Browser Cache With Selenium WebDriver/ChromeDriver](articles/clear-the-chrome-browser-cache) -  Demonstrates how to clear the Chrome browser cache with Selenium.
 - [How to Clear the Firefox Browser Cache With Selenium WebDriver/geckodriver](articles/clear-the-firefox-browser-cache) -  Demonstrates how to clear the Firefox browser cache with Selenium.
+- [How to Run a Keras Model in the Browser with Keras.js](articles/keras-weight-transfer) - Shows how to export a Keras neural network model and use it in the browser with `keras-js`.
 - [Implementing a Custom Waiting Action in Nightmare JS](articles/nightmare-network-idle/) - Learn how to have your Nightmare JS tests wait until the network is silent.
 - [It is *not* possible to detect and block Chrome headless](articles/not-possible-to-block-chrome-headless) - An updated exploration of techniques to avoid detection.
 - [JavaScript Injection with Selenium, Puppeteer, and Marionette in Chrome and Firefox](articles/javascript-injection) - An exploration of different browser automation methods to inject JavaScript into webpages.
@@ -45,7 +46,6 @@ These are articles where we don't have any supplementary materials available, bu
 - [Fantasy Football for Hackers II](https://intoli.com/blog/average-draft-position-vs-season-projections/) — An interactive visualization of Average Draft Position vs Season Projections.
 - [Finding Pareto Optimal Blogs on Hacker News](https://intoli.com/blog/pareto-optimal-blogs/) - An analysis of submissions on Hacker News for the purpose of identifying high quality technology blogs.
 - [How Are Principal Component Analysis and Singular Value Decomposition Related?](https://intoli.com/blog/pca-and-svd/) - Explores the relationship between singular value decomposition and principal component analysis.
-- [How to Run a Keras Model in the Browser with Keras.js](https://intoli.com/blog/keras-weight-transfer/) - Covers installing the right packages, exporting the weights from Python, and performing a prediction in the browser.
 - [How to Test If Your Website Logs Errors to the Console](https://intoli.com/blog/nightmare-console-errors/) - Use Nightmare JS to write useful Mocha-based console output tests.
 - [Markov's and Chebyshev's Inequalities Explained](https://intoli.com/blog/chebyshevs-inequality/) - A look at why Chebyshev's Inequality holds true and some potential applications.
 - [Patching a Linux Kernel Module](https://intoli.com/blog/patching-a-linux-kernel-module/) - A case-study in debugging and patching kernel-level issues on Linux.
