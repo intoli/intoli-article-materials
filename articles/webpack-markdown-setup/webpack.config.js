@@ -1,7 +1,10 @@
 const path = require('path');
 
+const highlight = require('highlight.js');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+
+const isProduction = process.env.NODE_ENV === 'production';
 
 const config = {
   devServer: {
@@ -34,6 +37,43 @@ const config = {
         exclude: /node_modules/,
         loader: 'babel-loader',
       },
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: [
+          {
+            loader: 'style-loader',
+            options: {
+              sourceMap: !isProduction,
+            },
+          },
+          {
+            loader: 'css-loader',
+            options: {
+              importLoaders: 0,
+              sourceMap: !isProduction,
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(md)$/,
+        use: [
+          'html-loader',
+          {
+            loader: 'markdown-loader',
+            options: {
+              highlight: (code, lang) => {
+                if (!lang || ['text', 'literal', 'nohighlight'].includes(lang)) {
+                  return `<pre class="hljs">${code}</pre>`;
+                }
+                const html = highlight.highlight(lang, code).value;
+                return `<span class="hljs">${html}</span>`;
+              },
+            },
+          },
+        ],
+      },
     ],
   },
   output: {
@@ -47,6 +87,12 @@ const config = {
       template: './src/index.html',
     }),
   ],
+  resolve:  {
+    extensions: [
+      '.js',
+      '.jsx',
+    ],
+  },
   watchOptions: {
     ignored: /build/,
   },
