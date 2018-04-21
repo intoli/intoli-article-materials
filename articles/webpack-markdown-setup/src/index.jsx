@@ -2,7 +2,11 @@ import 'babel-polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = () => (<div>Hello, world!</div>);
+import Article from './components/Article/index';
+import markdown from './article.md';
+
+
+const App = () => <Article markdown={markdown} />;
 
 
 ReactDOM.render(

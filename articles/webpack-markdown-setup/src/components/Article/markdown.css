@@ -1,0 +1,40 @@
+.article {
+  margin: auto;
+  width: 800px;
+}
+
+.article table {
+  margin-bottom: 13px;
+}
+
+.article table td,
+.article table th {
+  padding: 6px 13px;
+  text-align: left;
+}
+
+.article table th {
+  background: #d0dae5;
+}
+
+.article table tr {
+  border-top: 1px solid #dfe2e5;
+}
+
+.article table tr:nth-child(even) {
+  background: #f6f8fa;
+}
+
+.article pre {
+  margin-bottom: -7px;
+}
+
+.article pre code {
+  padding: 0;
+}
+
+.article code {
+  background: #ededed;
+  font-size: 13px;
+  padding: 1px 2px;
+}
