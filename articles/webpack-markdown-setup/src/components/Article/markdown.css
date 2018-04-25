@@ -1,39 +1,39 @@
-.article {
+.markdown {
   margin: auto;
   width: 800px;
 }
 
-.article table {
+.markdown table {
   margin-bottom: 13px;
 }
 
-.article table td,
-.article table th {
+.markdown table td,
+.markdown table th {
   padding: 6px 13px;
   text-align: left;
 }
 
-.article table th {
+.markdown table th {
   background: #d0dae5;
 }
 
-.article table tr {
+.markdown table tr {
   border-top: 1px solid #dfe2e5;
 }
 
-.article table tr:nth-child(even) {
+.markdown table tr:nth-child(even) {
   background: #f6f8fa;
 }
 
-.article pre {
+.markdown pre {
   margin-bottom: -7px;
 }
 
-.article pre code {
+.markdown pre code {
   padding: 0;
 }
 
-.article code {
+.markdown code {
   background: #ededed;
   font-size: 13px;
   padding: 1px 2px;

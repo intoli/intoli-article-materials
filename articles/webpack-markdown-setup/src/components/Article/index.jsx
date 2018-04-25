@@ -14,7 +14,7 @@ const wrapMarkup = html => ({
 
 const Article = ({ content }) => (
   // eslint-disable-next-line react/no-danger
-  <div className="article" dangerouslySetInnerHTML={wrapMarkup(content)} />
+  <div className="markdown" dangerouslySetInnerHTML={wrapMarkup(content)} />
 );
 
 Article.propTypes = {
