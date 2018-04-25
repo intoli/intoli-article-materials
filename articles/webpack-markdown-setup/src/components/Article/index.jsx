@@ -12,14 +12,14 @@ const wrapMarkup = html => ({
 });
 
 
-const Article = ({ content }) => (
+const Markdown = ({ content }) => (
   // eslint-disable-next-line react/no-danger
   <div className="markdown" dangerouslySetInnerHTML={wrapMarkup(content)} />
 );
 
-Article.propTypes = {
+Markdown.propTypes = {
   content: PropTypes.string.isRequired,
 };
 
 
-export default Article;
+export default Markdown;
