@@ -7,18 +7,18 @@ import './gruvbox-dark.css';
 import './markdown.css';
 
 
-const wrapMarkup = content => ({
-  __html: content,
+const wrapMarkup = html => ({
+  __html: html,
 });
 
 
-const Article = ({ markdown }) => (
+const Article = ({ content }) => (
   // eslint-disable-next-line react/no-danger
-  <div className="article" dangerouslySetInnerHTML={wrapMarkup(markdown)} />
+  <div className="article" dangerouslySetInnerHTML={wrapMarkup(content)} />
 );
 
 Article.propTypes = {
-  markdown: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
 };
 
 

@@ -3,10 +3,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Article from './components/Article/index';
-import markdown from './article.md';
+import content from './article.md';
 
 
-const App = () => <Article markdown={markdown} />;
+const App = () => <Article content={content} />;
 
 
 ReactDOM.render(
