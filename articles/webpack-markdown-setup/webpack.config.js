@@ -87,7 +87,7 @@ const config = {
       template: './src/index.html',
     }),
   ],
-  resolve:  {
+  resolve: {
     extensions: [
       '.js',
       '.jsx',
