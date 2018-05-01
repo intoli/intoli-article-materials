@@ -7,6 +7,7 @@ const apiStage = 'v1';
 const transcoderFunctionName = 'YoutubeMp3TranscoderFunction';
 const lambda = new AWS.Lambda({ region: 'us-east-2' });
 const s3 = new AWS.S3({ signatureVersion: 'v4' });
+// You'll need to change this to point towards your own bucket.
 const s3Bucket = 'youtube-mp3-downloader';
 
 const app = express();

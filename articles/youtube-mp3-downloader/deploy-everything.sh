@@ -1,6 +1,7 @@
 #! /bin/bash
 
 # You'll need to configure these settings, they must be unique.
+# Be sure to also change the bucket name in `app.js`!
 export bucket_name="youtube-mp3-downloader"
 
 export role_name="YoutubeMp3DownloaderRole"
