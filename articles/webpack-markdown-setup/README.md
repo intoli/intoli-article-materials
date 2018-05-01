@@ -33,3 +33,4 @@ yarn start
 ```
 
 and its starts a hot reloading server that will re-render the app on any chanages in real time.
+You can view the app at `http://localhost:3000` (customizable in the Webpack config).
