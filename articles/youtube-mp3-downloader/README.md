@@ -64,3 +64,11 @@ After setting these to uniques values, you can simply run
 ```
 
 to deploy all of the AWS resources.
+This will echo out a lot of information about the AWS resources being created, and then at the end you should see something like this.
+
+```
+Now just create a bookmarklet with the following contents!
+javascript:window.open(`https://osacfvxuq7.execute-api.us-east-2.amazonaws.com/v1/${window.location.href}`);
+```
+
+Then just create the bookmarklet, navigate to a video on YouTube, and click the bookmarklet to try it out!

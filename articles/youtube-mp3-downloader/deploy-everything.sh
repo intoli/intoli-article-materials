@@ -163,3 +163,8 @@ aws apigateway put-integration \
 aws apigateway create-deployment \
     --rest-api-id "${api_id}" \
     --stage-name v1
+
+
+# Echo out the bookmarklet.
+echo "Now just create a bookmarklet with the following contents!"
+echo "javascript:window.open(`https://${api_id}.execute-api.us-east-2.amazonaws.com/v1/\${window.location.href}`);"
