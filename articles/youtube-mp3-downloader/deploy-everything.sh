@@ -112,7 +112,7 @@ aws lambda update-function-code \
 # Create the function for the downloader app's API.
 yarn add aws-sdk aws-serverless-express express nunjucks ytdl-core
 zip --symlinks --recurse-paths youtube-mp3-downloader.zip \
-    app.js lambda.js package.json node_modules/
+    app.js download.html lambda.js package.json node_modules/
 response="$(aws lambda create-function \
     --function-name "${downloader_function_name}" \
     --zip-file fileb://youtube-mp3-downloader.zip \
