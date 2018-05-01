@@ -124,6 +124,14 @@ echo "${response}"
 downloader_function_arn="$(jq -r .FunctionArn <<< "${response}")"
 
 
+# Create the REST API.
+response="$(aws apigateway create-rest-api \
+    --name "${downloader_api_name}" \
+    --endpoint-configuration types=REGIONAL)"
+echo "${response}"
+api_id="$(jq -r .id <<< "${response}")"
+
+
 # Query the resources for this API.
 response="$(aws apigateway get-resources \
     --rest-api-id "${api_id}")"
@@ -155,7 +163,7 @@ aws apigateway put-integration \
     --http-method GET \
     --integration-http-method POST \
     --type AWS_PROXY \
-    --uri "arn:aws:apigateway:us-east-2:lambda:path/2015-03-31/functions/${transcoder_function_arn}/invocations" \
+    --uri "arn:aws:apigateway:us-east-2:lambda:path/2015-03-31/functions/${downloader_function_arn}/invocations" \
     --credentials "${role_arn}"
 
 
@@ -167,4 +175,4 @@ aws apigateway create-deployment \
 
 # Echo out the bookmarklet.
 echo "Now just create a bookmarklet with the following contents!"
-echo "javascript:window.open(`https://${api_id}.execute-api.us-east-2.amazonaws.com/v1/\${window.location.href}`);"
+echo "javascript:window.open(\`https://${api_id}.execute-api.us-east-2.amazonaws.com/v1/\${window.location.href\`);"
