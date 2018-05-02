@@ -33,6 +33,7 @@ This is our most recent article, we hope that you'll enjoy it!
 - [Using Firefox WebExtensions with Selenium](articles/firefox-extensions-with-selenium) - A guide to launching Firefox with extensions preloaded using Selenium.
 - [Using Google Chrome Extensions with Selenium](articles/chrome-extensions-with-selenium) - A simple guide to launching Google Chrome with extensions preloaded using Selenium.
 - [Using Puppeteer to Scrape Websites with Infinite Scrolling](articles/scrape-infinite-scroll/) - Learn how to scrape an infinitely scrolling data feed with a headless browser.
+- [Using Webpack to Render Markdown in React Apps](articles/webpack-markdown-setup/) - A short tutorial about automatically rendering Markdown documents for usage in React apps.
 - [Why I Still Don't Use Yarn](articles/node-package-manager-benchmarks) - Benchmarks `npm`, `pnpm`, and `yarn` for installation time and storage space given a few common project configurations.
 
 

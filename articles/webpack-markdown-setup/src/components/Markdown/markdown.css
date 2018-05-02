@@ -1,0 +1,40 @@
+.markdown {
+  margin: auto;
+  width: 800px;
+}
+
+.markdown table {
+  margin-bottom: 13px;
+}
+
+.markdown table td,
+.markdown table th {
+  padding: 6px 13px;
+  text-align: left;
+}
+
+.markdown table th {
+  background: #d0dae5;
+}
+
+.markdown table tr {
+  border-top: 1px solid #dfe2e5;
+}
+
+.markdown table tr:nth-child(even) {
+  background: #f6f8fa;
+}
+
+.markdown pre {
+  margin-bottom: -7px;
+}
+
+.markdown pre code {
+  padding: 0;
+}
+
+.markdown code {
+  background: #ededed;
+  font-size: 13px;
+  padding: 1px 2px;
+}

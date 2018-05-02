@@ -1,0 +1,24 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        "config": "./webpack.config.js"
+      }
+    }
+  },
+  "rules": {
+    "class-methods-use-this": "off",
+    "function-paren-newline": "off",
+    "object-curly-newline": ["error", {
+      "consistent": true,
+      "minProperties": 5
+    }]
+  }
+}
