@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <title>Youtube MP3 Downloader</title>
+    <link rel="stylesheet"
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+      .embedded-video {
+        display: block;
+        height: 315px;
+        margin: 0 auto 20px auto;
+        width: 560px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="header">The download will begin after transcoding...</h2>
+      <div class="panel panel-default">
+        <div class="panel-body">
+          <iframe
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+            class="embedded-video" src="https://www.youtube.com/embed/{{ videoId }}"
+            frameborder="0"
+          >
+          </iframe>
+          <div class="progress progress-striped">
+            <div id="progress-bar" class="progress-bar" style="width: 0%; opacity: 1;">
+              0%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      // Construct the API URLs from the current window location.
+      const currentLocation = window.location.toString();
+      const apiStagePrefix = '/{{ apiStage }}/';
+      const apiPrefix = currentLocation.slice(0,
+        currentLocation.indexOf(apiStagePrefix) + apiStagePrefix.length);
+      const apiTranscodeUrl = `${apiPrefix}transcode/{{ videoId }}`;
+      const apiSignedUrl = `${apiPrefix}signed-url`;
+
+      // Handle updating the progress bar.
+      const progressBar = document.getElementById('progress-bar');
+      const updateProgress = (progress) => {
+        if (progress >= 1) {
+          progressBar.innerHTML = 'Done!';
+          progressBar.innerHTML = `100%`;
+          progressBar.parentElement.classList.remove('progress-striped');
+          progressBar.style= `width: 100%; opacity: 1;`;
+        } else {
+          progressBar.innerHTML = `${Math.round(progress * 1000) / 10}%`;
+          progressBar.style= `width: ${progress * 100}%; opacity: 1;`;
+        }
+      };
+
+      // Check the current status of the transcoding and update the progress.
+      const startPolling = ({ logKey, mp3Key }) => {
+        const url = `${apiSignedUrl}/${encodeURIComponent(logKey)}/` +
+          encodeURIComponent(mp3Key);
+        const header = document.getElementById('header');
+        const initialTime = Date.now();
+        const pollingInterval = 5000;
+        const poll = () => {
+          fetch(url)
+          .then(response => response.json())
+          .then(({ url }) => {
+            if (!url) {
+              const progress = Math.min(1, (Date.now() - initialTime) / 300000);
+              if (progress === 1) {
+                header.innerHTML = 'Something went wrong :-(';
+              } else {
+                updateProgress(progress);
+                setTimeout(poll, pollingInterval);
+              }
+            } else {
+              updateProgress(1);
+              header.innerHTML = 'Transcoding has completed successfully!';
+              window.location = url;
+            }
+          });
+        };
+        poll();
+      };
+
+      // Kick off the actual transcoding.
+      fetch(apiTranscodeUrl)
+        .then(response => response.json())
+        .then(startPolling);
+    </script>
+  </body>
+</html>
