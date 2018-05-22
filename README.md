@@ -9,7 +9,7 @@ Additionally, you can watch or start this repository to be made aware of new upd
 
 This is our most recent article, we hope that you'll enjoy it!
 
-- [Running FFmpeg on AWS Lambda for 1.9% the cost of AWS Elastic Transcoder](articles/youtube-mp3-downloader) - Develops an AWS Lambda function that can transcode video and audio on the fly.
+- [Making a YouTube MP3 Downloader with Exodus, FFmpeg, and AWS Lambda](articles/youtube-mp3-downloader) - Walks through the process of building a YouTube MP3 bookmarklet using AWS Lambda.
 
 
 ## Articles
@@ -24,6 +24,7 @@ This is our most recent article, we hope that you'll enjoy it!
 - [Implementing a Custom Waiting Action in Nightmare JS](articles/nightmare-network-idle/) - Learn how to have your Nightmare JS tests wait until the network is silent.
 - [It is *not* possible to detect and block Chrome headless](articles/not-possible-to-block-chrome-headless) - An updated exploration of techniques to avoid detection.
 - [JavaScript Injection with Selenium, Puppeteer, and Marionette in Chrome and Firefox](articles/javascript-injection) - An exploration of different browser automation methods to inject JavaScript into webpages.
+- [Making a YouTube MP3 Downloader with Exodus, FFmpeg, and AWS Lambda](articles/youtube-mp3-downloader) - Walks through the process of building a YouTube MP3 bookmarklet using AWS Lambda.
 - [Making Chrome Headless Undetectable](articles/making-chrome-headless-undetectable) - Bypasses some common Chrome Headless tests by injecting JavaScript into pages before the test code has a chance to run.
 - [Running FFmpeg on AWS Lambda for 1.9% the cost of AWS Elastic Transcoder](articles/youtube-mp3-downloader) - Develops an AWS Lambda function that can transcode video and audio on the fly.
 - [Running Selenium with Headless Chrome](articles/running-selenium-with-headless-chrome) - Demonstrates how to run Google Chrome in headless mode using Selenium in Python.
