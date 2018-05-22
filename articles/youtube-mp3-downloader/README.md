@@ -1,6 +1,6 @@
 # Building a YouTube MP3 Downloader with Exodus, FFmpeg, and AWS Lambda
 
-[Running FFmpeg on AWS Lambda for 1.9% the cost of AWS Elastic Transcoder](https://intoli.com/blog/transcoding-on-aws-lambda) and [Building a YouTube MP3 Downloader with Exodus, FFmpeg, and AWS Lambda (*not yet published*)](https://intoli.com/blog/youtube-mp3-downloader) form a two part tutorial for building a practical bookmarklet that uses [AWS Lambda](https://aws.amazon.com/lambda/) to convert YouTube videos to MP3 files and then downloads them.
+[Running FFmpeg on AWS Lambda for 1.9% the cost of AWS Elastic Transcoder](https://intoli.com/blog/transcoding-on-aws-lambda) and [Building a YouTube MP3 Downloader with Exodus, FFmpeg, and AWS Lambda](https://intoli.com/blog/youtube-mp3-downloader) form a two part tutorial for building a practical bookmarklet that uses [AWS Lambda](https://aws.amazon.com/lambda/) to convert YouTube videos to MP3 files and then downloads them.
 The project consists of two Lambda functions:
 
 - `YoutubeMP3TranscoderFunction` - Defined in [transcoder.js](transcoder.js), this function first downloads a configurable media file, converts it to an MP3 using a bundled version of [FFmpeg](https://www.ffmpeg.org), and then uploads the MP3 to an S3 bucket.
