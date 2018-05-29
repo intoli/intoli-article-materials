@@ -4,6 +4,7 @@
   },
   "devDependencies": {
     "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-power-assert": "^2.0.0",
     "mocha": "^5.2.0",
