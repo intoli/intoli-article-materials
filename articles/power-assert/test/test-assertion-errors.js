@@ -19,4 +19,11 @@ describe('Power Assert Testing Examples', () => {
       assert(!result.includes(member))
     );
   });
+
+  it('check that a regular expression matches a string', () => {
+    const regex = /^Hello World!/;
+    const result = 'Hello World';
+    // Jest Equivalent: expect(result).toEqual(expect.stringMatching(regex));
+    assert(regex.test(result));
+  });
 });
