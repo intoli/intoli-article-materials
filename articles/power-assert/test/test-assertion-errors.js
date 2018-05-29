@@ -32,4 +32,11 @@ describe('Power Assert Testing Examples', () => {
     // Jest Equivalent: expect(result).toContainEqual(expect.any(Number));
     assert(result.some(member => typeof member === 'number'));
   });
+
+  it('check for deep equality between to objects', () => {
+    const expectedResult = { 'a': [1, 2], 'b': [1, 2] }
+    const result = { 'a': [1, 2], 'b': [1, 2, 3] }
+    // Jest Equivalent: expect(result).toEqual(expectedResult);
+    assert.deepEqual(result, expectedResult);
+  });
 });
