@@ -10,4 +10,13 @@ describe('Power Assert Testing Examples', () => {
     // Jest Equivalent: expect(result).toEqual(expect.not.stringContaining(unexpectedSubstring));
     assert(!result.includes(unexpectedSubstring));
   });
+
+  it('check that no members of an array are included in another array', () => {
+    const result = ['Hello', 'World'];
+    const unexpectedMembers = ['Evan', 'World'];
+    // Jest Equivalent: expect(result).toEqual(expect.not.arrayContaining(unexpectedMembers));
+    unexpectedMembers.forEach(member =>
+      assert(!result.includes(member))
+    );
+  });
 });
