@@ -2,11 +2,6 @@
   "env": {
     "testing": {
       "presets": [
-        ["env", {
-          "targets": {
-            "node": "current"
-          }
-        }],
         "power-assert"
       ]
     }
@@ -15,5 +10,5 @@
     "targets": {
       "node": "6.10"
     }
-  }]],
+  }]]
 }
