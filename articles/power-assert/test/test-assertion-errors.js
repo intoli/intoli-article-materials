@@ -26,4 +26,10 @@ describe('Power Assert Testing Examples', () => {
     // Jest Equivalent: expect(result).toEqual(expect.stringMatching(regex));
     assert(regex.test(result));
   });
+
+  it('check that an array contains at least one number', () => {
+    const result = ['Hello', 'World'];
+    // Jest Equivalent: expect(result).toContainEqual(expect.any(Number));
+    assert(result.some(member => typeof member === 'number'));
+  });
 });
