@@ -33,7 +33,7 @@ describe('Power Assert Testing Examples', () => {
     assert(result.some(member => typeof member === 'number'));
   });
 
-  it('check for deep equality between to objects', () => {
+  it('check for deep equality between two objects', () => {
     const expectedResult = { 'a': [1, 2], 'b': [1, 2] }
     const result = { 'a': [1, 2], 'b': [1, 2, 3] }
     // Jest Equivalent: expect(result).toEqual(expectedResult);
