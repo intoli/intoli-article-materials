@@ -1,0 +1,1 @@
+- [primitive-negative-indexing.js](primitive-negative-indexing.js) - An implementation of negative slicing in JavaScript that doesn't use proxies.
