@@ -26,7 +26,7 @@ class Slice {
     let currentIndex;
     let indexIsValid;
     if (step > 0) {
-      currentIndex = start == null ? 0 : start;
+      currentIndex = start == null ? 0 : Math.max(start, 0);
       const maximumPossibleIndex = stop == null ? array.length - 1 : stop - 1;
       indexIsValid = (index) => index <= maximumPossibleIndex;
     } else {
