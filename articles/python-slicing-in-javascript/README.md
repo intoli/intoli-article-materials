@@ -1,3 +1,4 @@
 - [primitive-negative-indexing.js](primitive-negative-indexing.js) - An implementation of negative slicing in JavaScript that doesn't use proxies.
+- [slice-probe.py](slice-probe.py) - Implements the `SliceProbe` class that is used to understand how slicing works in Python.
 - [slice.js](slice.js) - Implements the `Slice` class.
 - [slice-array.js](slice-array.js) - Implements the `SliceArray` class.
