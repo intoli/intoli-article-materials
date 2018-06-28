@@ -2,7 +2,7 @@
 
 [Recreating Python's Slice Syntax in JavaScript Using ES6 Proxies](https://intoli.com/blog/python-slicing-in-javascript) explores how [Proxies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy) work in JavaScript, and uses them to build a `SliceArray` class that supports a variant of Python's negative indexing and extended slice syntax.
 It's not possible to implement Python's syntax exactly due to the fact that the behavior of colons can't be modified in JavaScript.
-A double bracket syntax is introduced instead where double brackets are used for access and colons are replaced with commas.
+Instead, a double bracket syntax is introduced where double brackets are used for access and colons are replaced with commas.
 For example, you could write `array[::-1]` in Python to reverse an array, while the equivalent in JavaScript would be `array[[,,-1]]`.
 
 The code from the article has since been improved and released as an npm package called [Slice](https://github.com/intoli/slice).
