@@ -9,7 +9,7 @@ Additionally, you can watch or start this repository to be made aware of new upd
 
 This is our most recent article, we hope that you'll enjoy it!
 
-- [No API Is the Best API — The elegant power of Power Assert](articles/power-assert) - Looks at how Power Assert can be used to get rich contextual error messages without the need to use a specialized assertion API.
+- [How F5Bot Slurps All of Reddit](https://intoli.com/blog/f5bot/) - A guest post in which the creator of F5Bot explains in detail how it works, and how it's able to scrape million of Reddit comments per day in real-time.
 
 
 ## Articles
