@@ -9,7 +9,7 @@ Additionally, you can watch or start this repository to be made aware of new upd
 
 This is our most recent article, we hope that you'll enjoy it!
 
-- [No API Is the Best API — The elegant power of Power Assert](articles/power-assert) - Looks at how Power Assert can be used to get rich contextual error messages without the need to use a specialized assertion API.
+- [How F5Bot Slurps All of Reddit](https://intoli.com/blog/f5bot/) - A guest post in which the creator of F5Bot explains in detail how it works, and how it's able to scrape million of Reddit comments per day in real-time.
 
 
 ## Articles
@@ -51,6 +51,7 @@ These are articles where we don't have any supplementary materials available, bu
 - [Fantasy Football for Hackers II](https://intoli.com/blog/average-draft-position-vs-season-projections/) — An interactive visualization of Average Draft Position vs Season Projections.
 - [Finding Pareto Optimal Blogs on Hacker News](https://intoli.com/blog/pareto-optimal-blogs/) - An analysis of submissions on Hacker News for the purpose of identifying high quality technology blogs.
 - [How Are Principal Component Analysis and Singular Value Decomposition Related?](https://intoli.com/blog/pca-and-svd/) - Explores the relationship between singular value decomposition and principal component analysis.
+- [How F5Bot Slurps All of Reddit](https://intoli.com/blog/f5bot/) - A guest post in which the creator of F5Bot explains in detail how it works, and how it's able to scrape million of Reddit comments per day in real-time.
 - [How to Test If Your Website Logs Errors to the Console](https://intoli.com/blog/nightmare-console-errors/) - Use Nightmare JS to write useful Mocha-based console output tests.
 - [Markov's and Chebyshev's Inequalities Explained](https://intoli.com/blog/chebyshevs-inequality/) - A look at why Chebyshev's Inequality holds true and some potential applications.
 - [Patching a Linux Kernel Module](https://intoli.com/blog/patching-a-linux-kernel-module/) - A case-study in debugging and patching kernel-level issues on Linux.
