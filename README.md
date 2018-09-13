@@ -9,12 +9,13 @@ Additionally, you can watch or start this repository to be made aware of new upd
 
 This is our most recent article, we hope that you'll enjoy it!
 
-- [How F5Bot Slurps All of Reddit](https://intoli.com/blog/f5bot/) - A guest post in which the creator of F5Bot explains in detail how it works, and how it's able to scrape million of Reddit comments per day in real-time.
+- [Breaking Out of the Chrome/WebExtension Sandbox](articles/sandbox-breakout/) - Uses some JavaScript trickery to break out of browser extension context to directly modify webpage native properties.
 
 
 ## Articles
 
 - [Analyzing One Million robots.txt Files](articles/analyzing-one-million-robots-txt-files) - Explores downloading and analyzing the `robots.txt` files for the Alex top one million websites.
+- [Breaking Out of the Chrome/WebExtension Sandbox](articles/sandbox-breakout/) - Uses some JavaScript trickery to break out of browser extension context to directly modify webpage native properties.
 - [Email Spy](articles/email-spy) - An open source Chrome/Firefox Web Extension that lets you find contact emails for any domain with a single click.
 - [Extending CircleCI's API with a Custom Microservice on AWS Lambda](articles/circleci-artifacts) - Explains how to deploy a nodejs express app as a microservice on AWS Lambda.
 - [Fantasy Football for Hackers](articles/fantasy-football-for-hackers) - Scrapes Fantasy Football projections and uses them to simulate league dynamics and calculate baseline subtracted values for players to use as a draft strategy.
