@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Content Script Sandbox Breakout Extension",
+  "version": "1.0.0",
+  "applications": {
+    "gecko": {
+      "id": "sandbox-breakout@intoli.com"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["sandbox-breakout.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
