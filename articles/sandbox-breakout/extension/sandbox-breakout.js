@@ -14,8 +14,8 @@ const runInPageContext = (method, ...args) => {
     ? method.toString()
     : `() => { ${method} }`;
 
-  // The stringified arguments for the method, reconstructed into a spread array.
-  const stringifiedArgs = `JSON.parse(${JSON.stringify(JSON.stringify(args))})`;
+  // The stringified arguments for the method as JS code that will reconstruct the array.
+  const stringifiedArgs = JSON.stringify(args);
 
   // The full content of the script tag.
   const scriptContent = `
