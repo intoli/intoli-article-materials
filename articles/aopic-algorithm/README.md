@@ -1,6 +1,6 @@
 # Performing Efficient Broad Crawls with the AOPIC Algorithm
 
-[Performing Efficient Broad Crawls with the AOPIC Algorithm](https://intoli.com/blog/aopic-algorithm) article explains how the the Adaptive On-Line Page Importance Computation (AOPIC) algorithm for performing efficient broad crawls works.
+[Performing Efficient Broad Crawls with the AOPIC Algorithm](https://intoli.com/blog/aopic-algorithm/) article explains how the the Adaptive On-Line Page Importance Computation (AOPIC) algorithm for performing efficient broad crawls works.
 AOPIC is similar to Google's PageRank in that it iteratively estimates page importance based on links between pages, but it's pretty simple to understand and implement, and produces good results in practice.
 
 This folder contains the code used to generate the AOPIC simulation widgets and plots in the article.
