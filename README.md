@@ -9,7 +9,7 @@ Additionally, you can watch or start this repository to be made aware of new upd
 
 This is our most recent article, we hope that you'll enjoy it!
 
-- [Breaking Out of the Chrome/WebExtension Sandbox](articles/sandbox-breakout/) - Uses some JavaScript trickery to break out of browser extension context to directly modify webpage native properties.
+- [Performing Efficient Broad Crawls with the AOPIC Algorithm](articles/aopic-algorithm/) - Learn how to efficiently allocate your bandwidth to the most important pages encountered during a broad crawl.
 
 
 ## Articles
@@ -28,6 +28,7 @@ This is our most recent article, we hope that you'll enjoy it!
 - [Making a YouTube MP3 Downloader with Exodus, FFmpeg, and AWS Lambda](articles/youtube-mp3-downloader) - Walks through the process of building a YouTube MP3 bookmarklet using AWS Lambda.
 - [Making Chrome Headless Undetectable](articles/making-chrome-headless-undetectable) - Bypasses some common Chrome Headless tests by injecting JavaScript into pages before the test code has a chance to run.
 - [No API Is the Best API — The elegant power of Power Assert](articles/power-assert) - Looks at how Power Assert can be used to get rich contextual error messages without the need to use a specialized assertion API.
+- [Performing Efficient Broad Crawls with the AOPIC Algorithm](articles/aopic-algorithm/) - Learn how to efficiently allocate your bandwidth to the most important pages encountered during a broad crawl.
 - [Recreating Python's Slice Syntax in JavaScript Using ES6 Proxies](articles/python-slicing-in-javascript) - Explores how Proxies work in JavaScript, and walks through the process of building the [Slice](https://github.com/intoli/slice) package for negative indexing and extended slicing in JavaScript.
 - [Running FFmpeg on AWS Lambda for 1.9% the cost of AWS Elastic Transcoder](articles/youtube-mp3-downloader) - Develops an AWS Lambda function that can transcode video and audio on the fly.
 - [Running Selenium with Headless Chrome](articles/running-selenium-with-headless-chrome) - Demonstrates how to run Google Chrome in headless mode using Selenium in Python.
