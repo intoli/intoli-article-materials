@@ -1,0 +1,17 @@
+.step-list {
+    margin-top: 40px;
+}
+
+.control-wrapper {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.control-wrapper > * {
+    margin-right: 6px;
+    flex: 1;
+}
+
+.control-wrapper :last-child {
+    margin-right: 0;
+}
