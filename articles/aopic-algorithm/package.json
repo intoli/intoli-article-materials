@@ -1,0 +1,38 @@
+{
+  "scripts": {
+    "build": "rimraf ./build && NODE_ENV=production webpack --config webpack.config.js",
+    "postinstall": "mkdir -p ./public && cp ./node_modules/cytoscape/dist/cytoscape.min.js ./public/",
+    "lint": "eslint --ignore-path .gitignore --ext js,jsx src",
+    "start": "NODE_ENV=development webpack-dev-server --config webpack.config.js --hot"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.18.2",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "html-webpack-plugin": "^3.0.4",
+    "rimraf": "^2.6.2",
+    "uglifyjs-webpack-plugin": "1.3.0",
+    "webpack": "^3.10.0",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "classnames": "^2.2.6",
+    "css-loader": "^1.0.0",
+    "cytoscape": "^3.2.16",
+    "prop-types": "^15.6.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "style-loader": "^0.23.0"
+  }
+}
