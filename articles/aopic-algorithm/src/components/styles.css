@@ -1,5 +1,13 @@
+.first-step {
+    margin-top: 30px;
+}
+
 .step-list {
-    margin-top: 40px;
+    margin: 10px 0;
+}
+
+.step-list li {
+    border-width: 0;
 }
 
 .control-wrapper {

@@ -184,12 +184,13 @@ class AOPICPlayer extends React.Component {
             <li className={classNames({
                 'list-group-item': true,
                 active: this.state.step === -1,
+                [styles.firstStep]: true,
               })}
             >
               1. Initialize Credits
             </li>
           </ul>
-          <ul className="list-group">
+          <ul className={classNames('list-group', styles.stepList)}>
             <li className={classNames({
                 'list-group-item': true,
                 active: this.state.step === 0,
@@ -197,6 +198,8 @@ class AOPICPlayer extends React.Component {
             >
               2. Pick Next Node
             </li>
+          </ul>
+          <ul className={classNames('list-group', styles.stepList)}>
             <li className={classNames({
                 'list-group-item': true,
                 active: this.state.step === 1,
@@ -204,6 +207,8 @@ class AOPICPlayer extends React.Component {
             >
               3. Allocate Cash
             </li>
+          </ul>
+          <ul className={classNames('list-group', styles.stepList)}>
             <li className={classNames({
                 'list-group-item': true,
                 active: this.state.step === 2,
@@ -224,34 +229,28 @@ class AOPICPlayer extends React.Component {
                 <span className="glyphicon glyphicon-play" />
               )}
             </button>
-            <div className="btn-group btn-group-justified" style={{ flex: 2 }}>
-              <div className="btn-group" role="group">
-                <button
-                  className={classNames({
-                    btn: true,
-                    'btn-default': true,
-                    disabled: this.state.speed <= 1,
-                  })}
-                  onClick={this.handleSlowerClick}
-                  type="button"
-                >
-                  <span className="glyphicon glyphicon-minus" />
-                </button>
-              </div>
-              <div className="btn-group">
-                <button
-                  className={classNames({
-                    btn: true,
-                    'btn-default': true,
-                    disabled: this.state.speed >= maxSpeed,
-                  })}
-                  onClick={this.handleFasterClick}
-                  type="button"
-                >
-                  <span className="glyphicon glyphicon-plus" />
-                </button>
-              </div>
-            </div>
+            <button
+              className={classNames({
+                btn: true,
+                'btn-default': true,
+                disabled: this.state.speed <= 1,
+              })}
+              onClick={this.handleSlowerClick}
+              type="button"
+            >
+              <span className="glyphicon glyphicon-minus" />
+            </button>
+            <button
+              className={classNames({
+                btn: true,
+                'btn-default': true,
+                disabled: this.state.speed >= maxSpeed,
+              })}
+              onClick={this.handleFasterClick}
+              type="button"
+            >
+              <span className="glyphicon glyphicon-plus" />
+            </button>
             <button
               className={classNames({
                 btn: true,
@@ -265,34 +264,28 @@ class AOPICPlayer extends React.Component {
             </button>
           </div>
           <div className={styles.controlWrapper}>
-            <div className="btn-group btn-group-justified" style={{ flex: 2 }}>
-              <div className="btn-group" role="group">
-                <button
-                  className={classNames({
-                    btn: true,
-                    'btn-default': true,
-                    disabled: this.state.labelType === 'cash-history',
-                  })}
-                  onClick={this.makeSelectLabelType('cash-history')}
-                  type="button"
-                >
-                  Cash/History
-                </button>
-              </div>
-              <div className="btn-group">
-                <button
-                  className={classNames({
-                    btn: true,
-                    'btn-default': true,
-                    disabled: this.state.labelType === 'importance',
-                  })}
-                  onClick={this.makeSelectLabelType('importance')}
-                  type="button"
-                >
-                  Importance
-                </button>
-              </div>
-            </div>
+            <button
+              className={classNames({
+                btn: true,
+                'btn-default': true,
+                disabled: this.state.labelType === 'cash-history',
+              })}
+              onClick={this.makeSelectLabelType('cash-history')}
+              type="button"
+            >
+              Cash/History
+            </button>
+            <button
+              className={classNames({
+                btn: true,
+                'btn-default': true,
+                disabled: this.state.labelType === 'importance',
+              })}
+              onClick={this.makeSelectLabelType('importance')}
+              type="button"
+            >
+              Importance
+            </button>
           </div>
           <div className={styles.controlWrapper}>
             <button
