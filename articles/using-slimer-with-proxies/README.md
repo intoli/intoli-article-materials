@@ -29,7 +29,7 @@ cd intoli-article-materials/articles/using-slimer-with-proxies
 yarn install
 ```
 
-Create a new Firefox profile called `scraping` and install the Intoli Root CA into its certificate database:
+Create a new Firefox profile called `scraping` and install the Intoli Root CA into its certificate database.
 
 ```bash
 bash ./set-up-profile.sh
