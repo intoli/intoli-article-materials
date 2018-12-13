@@ -9,7 +9,7 @@ Additionally, you can watch or start this repository to be made aware of new upd
 
 This is our most recent article, we hope that you'll enjoy it!
 
-- [Performing Efficient Broad Crawls with the AOPIC Algorithm](articles/aopic-algorithm/) - Learn how to efficiently allocate your bandwidth to the most important pages encountered during a broad crawl.
+- [How to Use the Chrome DevTools Protocol with Selenium in Python](articles/selenium-devtools-protocol/) - Illustrates how to use the Chrome DevTools protocol to accomplish advanced tasks with Selenium that would otherwise be impossible.
 
 
 ## Articles
@@ -22,6 +22,7 @@ This is our most recent article, we hope that you'll enjoy it!
 - [How to Clear the Chrome Browser Cache With Selenium WebDriver/ChromeDriver](articles/clear-the-chrome-browser-cache) -  Demonstrates how to clear the Chrome browser cache with Selenium.
 - [How to Clear the Firefox Browser Cache With Selenium WebDriver/geckodriver](articles/clear-the-firefox-browser-cache) -  Demonstrates how to clear the Firefox browser cache with Selenium.
 - [How to Run a Keras Model in the Browser with Keras.js](articles/keras-weight-transfer) - Shows how to export a Keras neural network model and use it in the browser with `keras-js`.
+- [How to Use the Chrome DevTools Protocol with Selenium in Python](articles/selenium-devtools-protocol/) - Illustrates how to use the Chrome DevTools protocol to accomplish advanced tasks with Selenium that would otherwise be impossible.
 - [Implementing a Custom Waiting Action in Nightmare JS](articles/nightmare-network-idle/) - Learn how to have your Nightmare JS tests wait until the network is silent.
 - [It is *not* possible to detect and block Chrome headless](articles/not-possible-to-block-chrome-headless) - An updated exploration of techniques to avoid detection.
 - [JavaScript Injection with Selenium, Puppeteer, and Marionette in Chrome and Firefox](articles/javascript-injection) - An exploration of different browser automation methods to inject JavaScript into webpages.
