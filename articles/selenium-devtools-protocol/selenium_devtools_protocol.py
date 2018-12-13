@@ -51,6 +51,7 @@ def print_to_pdf(driver, save_as=None, **kwargs):
         save_as (:obj:`str`, optional): An optional filename where the PDF will be written.
         **kwargs: Optional parameters which control details of the PDF conversion, as documented at:
             https://chromedevtools.github.io/devtools-protocol/tot/Page#method-printToPDF
+            Note that these keyword arguments must be specified in camel case.
 
     Returns:
         A base64 encoded representation of the newly generated PDF file.
