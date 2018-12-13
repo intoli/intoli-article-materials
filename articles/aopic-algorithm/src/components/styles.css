@@ -1,0 +1,25 @@
+.first-step {
+    margin-top: 30px;
+}
+
+.step-list {
+    margin: 10px 0;
+}
+
+.step-list li {
+    border-width: 0;
+}
+
+.control-wrapper {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.control-wrapper > * {
+    margin-right: 6px;
+    flex: 1;
+}
+
+.control-wrapper :last-child {
+    margin-right: 0;
+}
