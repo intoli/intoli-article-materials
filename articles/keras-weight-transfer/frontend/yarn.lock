@@ -3875,7 +3875,7 @@ jsx-ast-utils@^2.0.0, jsx-ast-utils@^2.0.1:
   dependencies:
     array-includes "^3.0.3"
 
-keras-js@^1.0.3:
+keras-js@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/keras-js/-/keras-js-1.0.3.tgz#8cb479b8ab0d4780b063017a3ca09f132b0ce719"
   dependencies:
@@ -4047,8 +4047,8 @@ locate-path@^2.0.0:
     path-exists "^3.0.0"
 
 lodash@^4.11.1, lodash@^4.13.1, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.2.0, lodash@^4.3.0:
-  version "4.17.5"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
 
 log-symbols@2.1.0:
   version "2.1.0"
