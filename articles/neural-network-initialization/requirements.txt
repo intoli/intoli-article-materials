@@ -45,7 +45,7 @@ seaborn==0.8.1
 Send2Trash==1.4.2
 simplegeneric==0.8.1
 six==1.11.0
-tensorflow==1.4.1
+tensorflow==2.5.3
 tensorflow-tensorboard==0.4.0
 terminado==0.8.1
 testpath==0.3.1
