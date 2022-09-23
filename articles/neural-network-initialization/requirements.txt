@@ -31,7 +31,7 @@ parso==0.1.1
 pexpect==4.3.1
 pickleshare==0.7.4
 prompt-toolkit==1.0.15
-protobuf==3.5.1
+protobuf==3.18.3
 ptyprocess==0.5.2
 Pygments==2.2.0
 pyparsing==2.2.0
