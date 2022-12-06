@@ -3875,7 +3875,7 @@ jsx-ast-utils@^2.0.0, jsx-ast-utils@^2.0.1:
   dependencies:
     array-includes "^3.0.3"
 
-keras-js@^1.0.3:
+keras-js@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/keras-js/-/keras-js-1.0.3.tgz#8cb479b8ab0d4780b063017a3ca09f132b0ce719"
   dependencies:
@@ -5149,8 +5149,8 @@ qs@6.5.1:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
 
 qs@~6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.1.tgz#2bad97710a5b661c366b378b1e3a44a592ff45e6"
 
 querystring-es3@^0.2.0:
   version "0.2.1"
